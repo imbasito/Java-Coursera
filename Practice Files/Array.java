@@ -48,7 +48,7 @@ public class Array {
         }
         
         // new line
-        System.out.println("lOL");
+        System.out.println();
 
         // find the maximum
         double max = Double.NEGATIVE_INFINITY;
