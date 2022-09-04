@@ -8,11 +8,11 @@
  *  % java Barnsley 10000
  *
  * ****************************************************************************/
-
-public class Barnsley {
+ public class Barnsley {
 
     public static void main(String[] args) {
-        int n = Integer.parseInt(args[0]);        // number of points to draw
+        // int n = Integer.parseInt(args[0]);        // number of points to draw
+       int n = 10000;
         StdDraw.setScale(-0.1, 1.1);              // leave a 10% border
         StdDraw.clear(StdDraw.BOOK_LIGHT_BLUE);   // background color
         StdDraw.setPenColor(0, 114, 0);           // a shade of green
