@@ -4,6 +4,6 @@ public class add_Std {
         int x = StdIn.readInt();
         StdOut.print("Enter 2nd value: ");
         int i = StdIn.readInt();
-        StdOut.print("The addition is: " + x + i);
+        StdOut.print("The sum is: " + (x + i));
     }
 }
